@@ -11,9 +11,9 @@ int main(void)      // 프로그램을 실행하는 main 함수
         ball[0] = rand() % 10;      // 0~9까지의 난수를 생성하여 ball[0]에 저장
         ball[1] = rand() % 10;      // 0~9까지의 난수를 생성하여 ball[1]에 저장
         ball[2] = rand() % 10;      // 0~9까지의 난수를 생성하여 ball[2]에 저장
-    } while (ball[0] == ball[1] || ball[0] == ball[2] || ball[1] == ball[2]);       // ball[0]과 ball[1]의 숫자가 같으면 다시 생성
+    } while (ball[0] == ball[1] || ball[0] == ball[2] || ball[1] == ball[2]);       // ball[0]과 ball[1]의 숫자가 같으면 다시 생성 || ball[0]과 ball[2]의 숫자가 같으면 다시 생성 || ball[1]과 ball[2]의 숫자가 같으면 다시 생성
 
-    printf("baseball : %d %d %d\n", ball[0], ball[1], ball[2]);
+    printf("baseball : %d %d %d\n", ball[0], ball[1], ball[2]);     // 생성된 난수 3개 출력
 
     //3개의 숫자를 입력
     int input[3];
