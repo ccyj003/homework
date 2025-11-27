@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-업로드 하자~~~
+업로드 하자~~
 
 int main(void) 
 {
